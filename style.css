@@ -1,0 +1,140 @@
+*{
+  box-sizing: border-box;
+}
+
+.planted-section {
+  width: 375px;
+  overflow: hidden;
+  font-family: "Roboto", sans-serif;
+}
+
+.heading {
+  display: flex;
+  gap: 20%;
+}
+
+.heading-text {
+  display: inline;
+  color: #0dba35;
+  margin: 0 0 0 40%;
+}
+
+@font-face {
+  font-family: Smoothie Shoppe,Regular;
+  src: url(fonts/Smoothie\ Shoppe.ttf);
+}
+
+.heading-customise {
+  display: inline;
+  font-family: Smoothie Shoppe,Regular;
+  width: 73px;
+  height: 30px;
+}
+
+.heading-img {
+  display: inline;
+}
+
+.icon-img {
+  margin: 10px 0 0 10px;
+  width: 16.93px;
+  height: 17.38;
+  color: black;
+}
+
+.heading-paragraph {
+  text-align: center;
+  height: 13px;
+  color: #666666;
+  font-family: Roboto,Regular;
+}
+
+.location {
+  text-align: center;
+  padding: 2vw 0 2vw 0;
+}
+
+.location-icon {
+  margin: 10px 0 0 10px;
+  width: 11.2px;
+  height: 16px;
+  color: #BDBDBD;
+}
+
+.location-box {
+  border: none;
+  width: 120px;
+  height: 19px;
+  font-family: Roboto,Regular;
+  color: #000000;
+}
+
+.search-bar {
+  width: 343px;
+  background: url("img/search-outline.svg") no-repeat;
+  height: 46px;
+  padding-left: 6px 6px 6px 6px;
+  color: #FFFFFF;
+  border-color: #E6E6E6;
+}
+
+.location-service {
+  text-align: center;
+}
+
+.food-section-1 {
+  display: flex;
+  margin-bottom: 5%;
+  gap: 2%;
+}
+
+.fa fa-heart {
+  text-align: right;
+}
+
+.link {
+  text-decoration: none;
+  color: red;
+}
+
+.fav-food-para {
+  margin-top: 2vw;
+}
+
+.amount {
+  display: inline;
+}
+
+.add {
+  display: inline;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10%;
+  width: 5rem;
+}
+
+.calculation {
+  display: inline;
+  background-color: white;
+  padding: 10px;
+  border: solid;
+  border-color: red;
+  color: red;
+  border-radius: 10%;
+  width: 4rem;
+}
+
+.total {
+  width: 1rem;
+  border: none;
+}
+
+#minus {
+  border: none;
+  background-color: white;
+}
+
+#plus {
+  border: none;
+  background-color: white;
+}
